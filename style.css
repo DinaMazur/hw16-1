@@ -1,0 +1,14 @@
+.bg-box {
+    background-image: url(./images/house.jpg),
+    url(./images/green.png),
+    url(./images/animal.webp),
+    url(./images/lamp.png),
+    url(./images/sweet.png);
+    height: 900px;
+    background-repeat: no-repeat, repeat-x,repeat-y,repeat-x,repeat-y;
+background-size: auto,350px,50px,70px,50px;
+background-position: center,bottom,left,top,right;
+}
+body {
+    background-color: green;
+}
